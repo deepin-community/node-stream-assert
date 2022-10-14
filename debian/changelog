@@ -1,0 +1,37 @@
+node-stream-assert (2.0.3-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Remove constraints unnecessary since stretch:
+    + node-stream-assert: Drop versioned constraint on node-through2 in Depends.
+
+  [ lintian-brush ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Yadd ]
+  * Declare compliance with policy 4.6.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Embed funsert, into-stream and predicates for test only
+  * Enable upstream test using mocha
+
+ -- Yadd <yadd@debian.org>  Fri, 24 Sep 2021 16:03:48 +0200
+
+node-stream-assert (2.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #863127)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 22 May 2017 16:17:53 +0530

@@ -1,0 +1,27 @@
+Source: node-stream-assert
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , mocha <!nocheck>
+ , node-from2 <!nocheck>
+ , node-should <!nocheck>
+ , node-through2 <!nocheck>
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-stream-assert
+Vcs-Git: https://salsa.debian.org/js-team/node-stream-assert.git
+Homepage: https://github.com/floatdrop/stream-assert
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-stream-assert
+Architecture: all
+Depends: ${misc:Depends}
+ , node-through2
+Description: Assertion library for streams
+ Assert streams with ease. This library is a build dependency of gulp-concat,
+ concatenation support for gulp build tool.
+ .
+ Node.js is an event-based server-side JavaScript engine.
